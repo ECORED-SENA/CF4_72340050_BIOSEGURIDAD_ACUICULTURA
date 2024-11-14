@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'La explotación acuícola:  criterios técnicos y normas vigentes'

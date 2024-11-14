@@ -1,17 +1,19 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'La explotación acuícola:  criterios técnicos y normas vigentes',
+    descripcionCurso:
+      'El componente formativo trata sobre la bioseguridad en acuicultura, destacando la elaboración de informes técnicos y planes de acción. Incluye la estructura, metodología y recomendaciones para la implementación de programas de bioseguridad, enfatizando la importancia de un plan de acción para asegurar la inocuidad alimentaria, la protección ambiental y la seguridad del personal en la explotación acuícola.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/2.png'),
       },
     ],
   },
@@ -31,13 +33,18 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Informe técnico',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Presentación',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Desarrollo, hallazgos y resultados',
+            hash: 't_1_2',
           },
         ],
       },
@@ -45,13 +52,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Plan de acción',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +103,102 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Informe técnico.',
+      referencia:
+        'Digitalinvit. (2021). CÓMO HACER UN INFORME EN WORD  REDACTAR UN INFORME CORRECTAMENTE EN 5 MINUTO. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/zy9hyWjf29w?si=PmhU-zq_HU-UbIPp',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Presentación.',
+      referencia:
+        'LA PROFE MÓNICA. (2022). CÓMO HACER UN INFORME - pasos y sugerencias - Edutuber La profe Mónica. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/hHMV9wMXZrg?si=X8TWQA3OGUy_xX9b',
+    },
+    {
+      tema: 'Desarrollo, hallazgos y resultados.',
+      referencia:
+        'Udearroba. (2019). Hallazgos de investigación. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/M51uodqnqYI?si=fbmXEnHBSbBJHlvH',
+    },
+    {
+      tema: 'Plan de acción.',
+      referencia:
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022). Plan de acción. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://youtu.be/eFJOKJMVsQs?si=0Lp0JtUQVIGd7Ho0',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Análisis',
+      significado:
+        'evaluación detallada de los datos recopilados durante la investigación.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Anexo',
+      significado:
+        'parte del informe que incluye material adicional como tablas y figuras.',
+    },
+    {
+      termino: 'Conclusiones',
+      significado:
+        'resumen de los resultados y recomendaciones basadas en el análisis realizado.',
+    },
+    {
+      termino: 'Hallazgos',
+      significado:
+        'resultados obtenidos a partir de un análisis o investigación.',
+    },
+    {
+      termino: 'Informe técnico',
+      significado:
+        'documento que comunica resultados, análisis y recomendaciones de una investigación específica.',
+    },
+    {
+      termino: 'Introducción',
+      significado:
+        'sección inicial del informe que describe el objetivo y contexto del estudio.',
+    },
+    {
+      termino: 'Monitoreo',
+      significado:
+        'proceso de seguimiento de los puntos críticos para mantenerlos bajo control.',
+    },
+    {
+      termino: 'Normatividad',
+      significado:
+        'conjunto de normas que rigen la realización y presentación del informe.',
+    },
+    {
+      termino: 'Plan de acción',
+      significado:
+        'estrategia para mejorar y corregir procesos en un informe técnico.',
+    },
+    {
+      termino: 'Puntos críticos de control',
+      significado:
+        'áreas donde se deben aplicar medidas para evitar riesgos y asegurar la calidad.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Real Academia Española. (s. f.). <i>Diccionario de la lengua española.</i>',
+      link: 'http://dle.rae.es/?id=SpXqUn9',
+    },
+    {
+      referencia:
+        'Ministerio de Salud y Protección Social. (s. f.). <i>¿Qué es un plan de acción?</i>',
+      link:
+        'https://www.minsalud.gov.co/Documentos%20y%20Publicaciones/Plan%20de%20acci%C3%B3n.pdf',
+    },
+    {
+      referencia:
+        'Perdomo, G. (s. f.). <i>Guía para elaboración de un informe técnico.</i>',
+      link: 'http://guillermoperdomo.blogspot.com.co',
     },
   ],
   creditos: [
@@ -150,8 +221,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Frank Esquivel Acosta',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +236,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Andres Felipe Guevara Ariza',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edward Leonardo Pico Cabra',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
