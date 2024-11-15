@@ -12,7 +12,7 @@
         .bg2.brad.p-3.mb-4(data-aos="fade-right")
             p(data-aos="fade-down").mb-0 Un #[b informe] es una explicación, ya sea oral o escrita, que describe las características y circunstancias de un evento o asunto. Se entiende como la acción y efecto de informar, y su propósito es #[b comunicar información precisa], derivada de una investigación o un trabajo específico. Además de proporcionar datos, un informe puede incluir #[b sugerencias, recomendaciones o propuestas de mejora].
 
-        p(data-aos="fade-down") #[b Informe] técnico este tipo de informe es un documento escrito que detalla la #[b observación de una situación] al momento de llegar al sitio físico. En él, se presentan argumentos sobre lo que se ha realizado en un momento específico y en relación con un tema particular, dirigido a un público específico que necesita tomar decisiones basadas en la #[b información proporcionada].
+        p(data-aos="fade-down") #[b Informe] técnico: este tipo de informe es un documento escrito que detalla la #[b observación de una situación] al momento de llegar al sitio físico. En él, se presentan argumentos sobre lo que se ha realizado en un momento específico y en relación con un tema particular, dirigido a un público específico que necesita tomar decisiones basadas en la #[b información proporcionada].
       .col-lg-4.my-3.order-lg-2
         img.img-a.img-t(data-aos="zoom-in")(src='@/assets/curso/temas/4.png', alt='')     
 

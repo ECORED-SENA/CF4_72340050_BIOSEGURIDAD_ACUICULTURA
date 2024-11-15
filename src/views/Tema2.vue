@@ -167,9 +167,9 @@
                 i.fas.fa-check-circle.color1
                 span Objetivos específicos, entre otros.
           div(titulo="Antecedentes")
-            p Ecuador es el principal productor de camarón marino de América, desarrollando más de 250,000 hectáreas de producción semi intensiva y unos 142 centros de producción larval. La camaronicultura en este país, al igual que en países del área, ha sufrido el efecto de enfermedades virales, principalmente el Síndrome del Taura (ST) y la enfermedad de las manchas blancas (WSS), con pérdidas socioeconómicas de gran magnitud.
+            p Ecuador es el principal productor de camarón marino de América, desarrollando más de 250.000 hectáreas de producción semi intensiva y unos 142 centros de producción larval. La camaronicultura en este país, al igual que en países del área, ha sufrido el efecto de enfermedades virales, principalmente el Síndrome de Taura (ST) y la enfermedad de las manchas blancas (WSS), con pérdidas socioeconómicas de gran magnitud.
           div(titulo="Objetivo general")
-            p Obtener información in situ para el análisis de riesgo de la condición sanitaria del país y del establecimiento TEXCUMAR S.A.
+            p Obtener información #[i in situ] para el análisis de riesgo de la condición sanitaria del país y del establecimiento TEXCUMAR S.A.
           div(titulo="Objetivos específicos")
             ul.lista-ul
               li 
@@ -186,8 +186,8 @@
             p Esta auditoría comprendió la verificación de la infraestructura del establecimiento respecto a la bioseguridad, revisión de la implementación de los protocolos de producción, bioseguridad, aplicación de buenas prácticas de producción acuícola, entre otras acciones.
           div(titulo="Metodología")
             p Se procedió con una reunión de coordinación del proceso de auditoría con el gerente y su equipo de trabajo, para luego pasar a la inspección de las instalaciones, funcionamiento, revisión de los registros (trazabilidad) y posteriormente una reunión con su personal técnico, para captar la información del formulario oficial de DINASA “Protocolo de Inspección Sanitaria Acuícola” I.P.3.1 (Anexo 2) y obtener la información necesaria para evaluar el riesgo sanitario, asociado a la importación.
-          div(titulo="Verificación in situ")
-            p En el establecimiento de maduración y de larvicultura, se revisó la documentación y se verificó in situ, paso a paso, la facilidad de cada estructura y la aplicación de los diferentes protocolos, buenas prácticas de producción y medidas de bioseguridad establecidos en sus procesos de producción de nauplios y postlarvas.
+          div(titulo="Verificación <i>in situ</i>")
+            p En el establecimiento de maduración y de larvicultura, se revisó la documentación y se verificó #[i in situ], paso a paso, la facilidad de cada estructura y la aplicación de los diferentes protocolos, buenas prácticas de producción y medidas de bioseguridad establecidas en sus procesos de producción de nauplios y postlarvas.
           div(titulo="Conclusiones")
             ul.lista-ul
               li 
