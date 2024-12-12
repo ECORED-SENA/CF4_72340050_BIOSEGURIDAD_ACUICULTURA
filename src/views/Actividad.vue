@@ -72,7 +72,11 @@ export default {
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Hallazgos o resultados.', esCorrecta: true },
-            { id: 'b', texto: 'Estrategias de marketing.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Estrategias de <i>marketing</i>.',
+              esCorrecta: false,
+            },
             {
               id: 'c',
               texto: 'Opiniones de los colaboradores.',
@@ -157,7 +161,11 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Estrategias de marketing.', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Estrategias de <i>marketing</i>.',
+              esCorrecta: false,
+            },
             { id: 'b', texto: 'Resumen ejecutivo.', esCorrecta: false },
             { id: 'c', texto: 'Tablas y figuras.', esCorrecta: true },
             { id: 'd', texto: 'Evaluaciones de desempeño.', esCorrecta: false },
